@@ -1,8 +1,13 @@
+import com.sun.org.apache.xpath.internal.objects.XNull;
+
 public class StringCharacter {
 
     public  String makeData(String myString) {
-        int len = myString.length();
-        String str = myString.substring(len - 3, len);
+       String str=null;
+      if(myString !=null){
+          int len = myString.length();
+           str = myString.substring(len - 3, len);
+      }
         return str;
     }
 }
