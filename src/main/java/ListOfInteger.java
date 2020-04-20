@@ -6,5 +6,4 @@ public class ListOfInteger {
         nums.removeIf(n -> n < 0);
         return nums;
     }
-
 }
